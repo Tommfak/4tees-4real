@@ -3,7 +3,7 @@ import type { Product } from "@/lib/shop-types";
 import { cn } from "@/lib/utils";
 
 export function productImage(id: string) {
-  return `/products/${id}.jpg?v=8`;
+  return `/products/${id}.jpg?v=9`;
 }
 
 export function ProductShot({

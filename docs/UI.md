@@ -13,6 +13,7 @@ Product photos are shot on warm cream paper. Dropping those rectangles onto near
 3. **Pills are for chips and the cart bar only.** Product cards, fields, and primary actions use 12px radius (`rounded-md`). Nested radii step down.
 4. **One accent.** Coca-Cola red on the “4”s, sold-out, and the closed dot. Primary actions are ink (black in light, cream in dark).
 5. **Photo well is the card.** Cream tile, product contained, type and price sit on the page below — The Whisky Exchange / Apple Store grid.
+6. **Packshots only.** `public/products/{id}.jpg` must be the actual drink (bottle, can, pack, dispenser, ice). Never use owner QA screenshots of the shop, Google/Instagram collages, logos, or a can for a bottle SKU. Bump `productImage` `?v=` after replacing files.
 
 ## Tokens
 
